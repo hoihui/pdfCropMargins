@@ -4,6 +4,11 @@ To install::
 
    pip install git+https://github.com/hoihui/pdfCropMargins
 
+To run::
+
+   pdfcrop your-file.pdf
+
+
 
 pdfCropMargins
 ==============
