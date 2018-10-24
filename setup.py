@@ -53,7 +53,7 @@ setup(
     install_requires=["wheel", "pillow", "PyPDF2"], # EITHER Pillow or PIL, NOT BOTH.
     url="https://github.com/abarker/pdfCropMargins",
     entry_points = {
-        "console_scripts": ["pdf-crop-margins = pdfCropMargins.pdfCropMargins:main"]
+        "console_scripts": ["pdfcrop = pdfCropMargins.pdfCropMargins:main"]
         },
     license="GPL",
     classifiers=[
