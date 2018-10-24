@@ -262,7 +262,7 @@ cmd_parser.add_argument("-v", "--verbose", action="store_true", help="""
    screen.^^n""")
 
 cmd_parser.add_argument("-p", "--percentRetain", nargs=1, type=float,
-                       metavar="PCT", default=[10.0], help="""
+                       metavar="PCT", default=[0.0], help="""
 
    Set the percent of margin space to retain in the image.  This is a
    percentage of the original margin space.  By default the percent value is
