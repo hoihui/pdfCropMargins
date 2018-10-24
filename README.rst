@@ -1,4 +1,6 @@
-Modified to have tight (zero) margins
+Modified to have tight (zero) margins and changed name to ``pdfcrop``
+pip install git+https://github.com/hoihui/pdfCropMargins
+
 
 pdfCropMargins
 ==============
