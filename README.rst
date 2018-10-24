@@ -1,3 +1,4 @@
+Modified to have tight (zero) margins
 
 pdfCropMargins
 ==============
