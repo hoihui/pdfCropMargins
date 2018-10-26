@@ -1,4 +1,8 @@
-Modified to have tight (zero) margins and changed name to ``pdfcrop``
+Modified:
+
+* name changed to ``pdfcrop``
+* tight crop (zero margin) by default
+* output to the same folder as the input file (instead of the working directory) by default
 
 To install::
 
