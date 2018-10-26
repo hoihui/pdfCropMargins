@@ -100,12 +100,13 @@ def generate_default_filename(infile_path, is_cropped_file=True):
 
     # Use modified basename as output path; program writes default output to CWD.
     file_name = os.path.basename(infile_path)
+    dir_name = os.path.dirname(infile_path)+'/'
     nameBeforeExtension, extension = os.path.splitext(file_name)
     if extension not in {".pdf", ".PDF"}: extension += ".pdf"
 
     sep = args.stringSeparator
-    if args.usePrefix: name = prefix + sep + nameBeforeExtension + extension
-    else: name = nameBeforeExtension + sep + suffix + extension
+    if args.usePrefix: name = dir_name + prefix + sep + nameBeforeExtension + extension
+    else: name = dir_name + nameBeforeExtension + sep + suffix + extension
 
     return name
 
