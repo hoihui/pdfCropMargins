@@ -8,7 +8,11 @@ To install::
 
    pip install git+https://github.com/hoihui/pdfCropMargins
 
-To run::
+To specify the prefix (e.g. to install to /usr/local/bin)::
+
+   sudo pip install --prefix /usr/local git+https://github.com/hoihui/pdfCropMargins
+
+To use::
 
    pdfcrop your-file.pdf
 
